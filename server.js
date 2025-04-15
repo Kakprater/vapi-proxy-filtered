@@ -6,7 +6,7 @@ const cors = require('cors');
 require('dotenv').config();
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 const VAPI_API_KEY = process.env.VAPI_API_KEY;
 
 if (!VAPI_API_KEY) {
